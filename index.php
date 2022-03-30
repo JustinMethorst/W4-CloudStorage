@@ -1,5 +1,6 @@
 <?php
 include './includes/class-autoload.inc.php';
+$conn = new Files();
 ?>
 
 <!doctype html>
@@ -16,12 +17,6 @@ include './includes/class-autoload.inc.php';
 <a href="register.php">Register User</a>
 <br>
 <a href="login.php">Login User</a>
-
-
-<form action="upload.function.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="file"/>
-    <button type="submit" name="upload">upload</button>
-</form>
 
 </body>
 </html>

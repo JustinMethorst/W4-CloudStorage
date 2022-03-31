@@ -14,6 +14,8 @@ $conn = new Files();
 </head>
 <body>
 
+<h1>TestLine</h1>
+
 <a href="register.php">Register User</a>
 <br>
 <a href="login.php">Login User</a>
